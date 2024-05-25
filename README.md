@@ -43,9 +43,9 @@
 
 <div align="center">
 <h1>📈 Estatísticas 📈</h1>
-  <!-- <p>Linguagens mais usadas:</p> -->
+  <p>Linguagens mais usadas:</p>
   <a href="https://github.com/Mixlort" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mixlort&layout=compact" alt="most used languages" width="400px">
+    <img src="https://github.com/Mixlort/Mixlort/blob/main/metrics.plugin.languages.svg" alt="most used languages" width="600px">
   </a>
 </div>
 
