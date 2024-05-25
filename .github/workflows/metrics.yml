@@ -12,7 +12,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           output_action: commit
-          committer_branch: renders-output
+          committer_branch: main
           committer_message: "chore: update metrics"
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
