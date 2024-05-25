@@ -1,20 +1,15 @@
-name: Metrics
+name: 📈 Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
+    steps:      
+      - name: 💻 Most used languages
+        uses: lowlighter/metrics@latest
         with:
           output_action: commit
           committer_branch: renders-output
@@ -30,4 +25,3 @@ jobs:
             h2.field, h3.field {
                 display: none;
             }
-            
