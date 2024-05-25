@@ -78,3 +78,6 @@
       <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Lobooooooo14/Lobooooooo14/snake-output/github-contribution-grid-snake.svg">
     </picture>
 </div> -->
+
+
+![snake gif](https://github.com/Mixlort/Mixlort/blob/output/github-contribution-grid-snake.svg)
